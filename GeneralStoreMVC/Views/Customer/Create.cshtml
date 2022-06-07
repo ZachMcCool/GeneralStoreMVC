@@ -1,0 +1,16 @@
+﻿@model IEnumerable<GeneralStoreMVC.Models.Customer.CustomerCreateModel>
+
+<div class="container">
+    <form method="post" asp-action="Create">
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" name="Email" placeholder="feedback@elevenfifty.org" />
+        </div>
+        <div class="form-group">
+            <label for="Name">Name</label>
+            <input type="text" class="form-control" name="Name" placeholder="Action Jackson" />
+        </div>
+        <button type="submit" class="btn btn-primary btnblockquote mt-2">Create</button>
+    </form>
+</div>
+
