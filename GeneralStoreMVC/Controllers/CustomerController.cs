@@ -21,7 +21,7 @@ namespace GeneralStoreMVC.Controllers
                 Name = customer.Name,
                 Email = customer.Email,
 
-            });
+            }).ToList();
             return View(customers);
         }
 
